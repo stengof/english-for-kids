@@ -1,2 +1,5 @@
-# stengof-JS2020Q3
-Private repository for @stengof
+# English-for-kids
+
+Game for kids on JS with webpack
+
+https://stengof-english-for-kids.netlify.app
