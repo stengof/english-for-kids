@@ -1,0 +1,42 @@
+{
+  "name": "stengof-JS2020Q3",
+  "version": "1.0.0",
+  "description": "Private repository for @stengof",
+  "private": true,
+  "scripts": {
+    "test": "eslint src/**/*.js",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open Chrome.exe",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/stengof-JS2020Q3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/stengof-JS2020Q3/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/stengof-JS2020Q3#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-webpack-plugin": "^2.4.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.8.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "url-loader": "^4.1.1"
+  }
+}
